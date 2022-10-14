@@ -106,3 +106,66 @@ block : 전체 공간 차지, 세로 배치 `<div>1</div><div>2</div>`하면 <di
 inline: 콘텐츠만큼 공간 차지, 가로 배치 `<span>1</span><span>2</span>`하면 <br>
   <span>1</span><span>2</span><br>
   이렇게 1 다음 바로 2나옴 1의 콘텐츠 만큼만 공간을 차지하기 때문, width&height 적용x
+  
+  ## 이미지 & 멀티미디어 태그
+
+### 이미지 태그
+
+`<img>` 
+
+`src 속성` 을 통해 이미지 링크 넣기 
+
+`alt 속성` 을 통해 이미지 안 나올 때 대신할 문구
+
+예시)
+
+```html
+<img src="이미지 주소" alt="문구">
+```
+
+- 절대 경로
+    - 웹 이미지 절대경로 ex) http://www. 걍 링크 주소
+    - 파일의 폴더 ex) C:\user\ 파일의 경로
+- 상대경로
+    - 현 위치와 같은 파일이면 `이름.확장자` or `./이름.확장자`
+    - 상위 폴더 → `../이름.확장자`
+    - 하위 폴더 → `하위폴더/이름.확장자`
+
+### 오디오 태그 & 비디오 태그
+
+`<audio>` 태그 : html문서에 소리를 넣을 때
+
+예시)
+
+```html
+<audio src="오디오 주소" controls></audio>
+```
+
+- `controls` 속성은 컨트롤 바(재생막대)를 띄워줌
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a659975c-9c27-4af0-b99f-6686c80811eb/Untitled.png)
+
+`<video>` 태그
+
+예시)
+
+```html
+<video src="비디오 주소" controls></video>
+```
+
+### 하이퍼링크 태그
+
+`<a>` 태그는 `href` 속성을 사용해서 다른 페이지나 특정위치, 다른 url로 이동할 수 있음
+
+이때, `target="_blank"` 속성을 사용하면 새 탭을 열 수 있다.
+
+- 다른 페이지로 이동
+
+```html
+<a href="링크주소">다른 페이지로 이동</a>
+```
+
+- 새 탭을 열어서 이동
+ ```html
+  <a href="링크주소" target="_blank">새 탭으로 페이지 열기</a>
+  ```
