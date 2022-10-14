@@ -104,5 +104,5 @@ yellow는 span태그 - 특정 부분만 공간 차지
 block : 전체 공간 차지, 세로 배치 `<div>1</div><div>2</div>`하면 <div>1</div><div>2</div> 이렇게 1줄 쫙 공간 차지 그 다음 줄에 2 공간이 생김, width&height 적용o
 
 inline: 콘텐츠만큼 공간 차지, 가로 배치 `<span>1</span><span>2</span>`하면 
-  <span>1</span><span>2</span>
-  렇게 1 다음 바로 2나옴 1의 콘텐츠 만큼만 공간을 차지하기 때문, width&height 적용x
+  <span>1</span><span>2</span><br>
+  이렇게 1 다음 바로 2나옴 1의 콘텐츠 만큼만 공간을 차지하기 때문, width&height 적용x
