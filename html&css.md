@@ -78,3 +78,29 @@
 `<tbody>` : 표의 일반적인 데이터 묶음
 
 `<tfoot>` : 표 마지막행 묶음
+  
+  ## semantic (의미론적) 태그 — 의미를 가지는 태그
+
+### 이점
+
+- 검색엔진 최적화
+- 웹 접근성 향상
+- 가독성 향상
+
+`<div> </div>` : (division) 가상의 레이아웃을 설계 / 영역을 구분 (컨테이너 역할)  **block-level element**  *display값이 block*
+
+`<span> </span>` : 영역을 구분  **inline-level element**  *display값이 inline*
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/805bbac2-57ea-4d0d-bc58-7d1cee52df88/Untitled.png)
+
+red는 div태그 - 칸 자체를 차지함
+
+yellow는 span태그 - 특정 부분만 공간 차지
+
+- display값을 변경할 수도 있음
+
+### block element VS inline element
+
+block : 전체 공간 차지, 세로 배치 <div>1</div><div>2</div>하면 1줄 쫙 공간 차지 그 다음 줄에 2 공간이 생김, width&height 적용o
+
+inline: 콘텐츠만큼 공간 차지, 가로 배치 <span>1</span><span>2</span>하면 1 다음 바로 2나옴 1의 콘텐츠 만큼만 공간을 차지하기 때문, width&height 적용x
