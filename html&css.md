@@ -169,3 +169,92 @@ inline: 콘텐츠만큼 공간 차지, 가로 배치 `<span>1</span><span>2</spa
  ```html
   <a href="링크주소" target="_blank">새 탭으로 페이지 열기</a>
   ```
+  
+  ## form 태그
+
+### 속성
+
+- action :
+- method :
+
+## input 태그
+
+- lable : 입력받는 필드를 설명
+
+```html
+<lable for = "email">이메일</lable>
+<input type="email" id="email" requred />
+```
+
+lable의 for와 input의 id이름 맞춰주기
+
+### type
+
+- 타입 tel
+    - 키패드를 띄워줌
+- 타입 url
+- 타입 number
+    - 우측에 숫자 up, down 화살표가 생김
+- range
+    - 정도를 표현할 수 있는 바가 생성됨
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e6514fc1-d24c-4747-bfc2-fb126ae58abe/Untitled.png)
+    
+- date
+    - 날짜를 선택할 수 있음
+    - 년, 월, 일
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48386b7b-4f3a-45a1-9d97-f88ca911c08a/Untitled.png)
+    
+- password
+    - 입력하면 ***로 보여
+    
+
+### form 데이터 태그 속성
+
+- required
+    - 입력값이 필수라는 것을 명시
+- autofocus
+    - 화면 초기에 해당 필드에 커서를 깜빡이는 거
+- placeholder
+    - 입력해야하는 칸에 멘트를 적을 수 있음
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a3c8a2ad-6c17-4462-a71d-5e3eff35702d/Untitled.png)
+    
+- textarea
+- 칸에 줄 글 입력 받기
+
+![cols 가로 길이, rows 세로 길이 조절](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1e78c09-e724-42ff-8503-2f728567034b/Untitled.png)
+
+cols 가로 길이, rows 세로 길이 조절
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e70bc89c-c5e1-408a-9db0-291174242c19/Untitled.png)
+
+fieldset으로 영역 정하기 
+
+legend에 field의 이름 적어줌
+
+- select
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bfbc9be1-b3d7-4fff-8775-d6e9def94d36/Untitled.png)
+    
+- button
+    - reset : 선택한 거 초기화
+    - submit : 기본 디폴트값 (안 적어도 디폴트임) , 서버로 정보 전송
+  
+  ## head 태그
+
+: 문서 정보를 담고 있는 태그
+
+- title
+- base
+- link
+    - 팝잇콘 설정가능
+    
+    ![유튜브 그림/  탭창에 뜨는 아이콘](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9846eda3-4d40-4cde-8370-710d853f34ae/Untitled.png)
+    
+    유튜브 그림/  탭창에 뜨는 아이콘
+    
+- style
+  
+  
