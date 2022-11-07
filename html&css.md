@@ -8,7 +8,7 @@
 
 ### 기본 구조
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6159d1b-ba53-4a72-a7f6-63f1ed69a2eb/Untitled.png)
+![image](https://user-images.githubusercontent.com/101108440/200315779-092644c2-d3ce-480a-971c-97fe49ad4306.png)
 
 ### 주석
 
