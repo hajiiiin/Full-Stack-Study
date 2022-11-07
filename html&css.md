@@ -143,7 +143,7 @@ inline: 콘텐츠만큼 공간 차지, 가로 배치 `<span>1</span><span>2</spa
 
 - `controls` 속성은 컨트롤 바(재생막대)를 띄워줌
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a659975c-9c27-4af0-b99f-6686c80811eb/Untitled.png)
+![image](https://user-images.githubusercontent.com/101108440/200314993-b3a60fa4-0ad5-46dc-bb2e-e8ff2061fb86.png)
 
 `<video>` 태그
 
@@ -198,13 +198,13 @@ lable의 for와 input의 id이름 맞춰주기
 - range
     - 정도를 표현할 수 있는 바가 생성됨
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e6514fc1-d24c-4747-bfc2-fb126ae58abe/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/101108440/200315413-0dd942bc-30a8-41fa-93e7-e502f7b9757d.png)
     
 - date
     - 날짜를 선택할 수 있음
     - 년, 월, 일
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48386b7b-4f3a-45a1-9d97-f88ca911c08a/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/101108440/200315449-64d86af5-0db3-4674-aaf1-06e29824403e.png)
     
 - password
     - 입력하면 ***로 보여
@@ -219,16 +219,16 @@ lable의 for와 input의 id이름 맞춰주기
 - placeholder
     - 입력해야하는 칸에 멘트를 적을 수 있음
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a3c8a2ad-6c17-4462-a71d-5e3eff35702d/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/101108440/200315514-72251e74-4526-4622-a67a-73eee56f8110.png)
     
 - textarea
 - 칸에 줄 글 입력 받기
 
-![cols 가로 길이, rows 세로 길이 조절](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1e78c09-e724-42ff-8503-2f728567034b/Untitled.png)
+![image](https://user-images.githubusercontent.com/101108440/200315570-95655365-c012-4f3f-a7e7-545a3097697d.png)
 
 cols 가로 길이, rows 세로 길이 조절
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e70bc89c-c5e1-408a-9db0-291174242c19/Untitled.png)
+![image](https://user-images.githubusercontent.com/101108440/200315623-f2665b01-38b6-4238-8ed5-508f6664f335.png)
 
 fieldset으로 영역 정하기 
 
