@@ -91,7 +91,7 @@
 
 `<span> </span>` : 영역을 구분  **inline-level element**  *display값이 inline*
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/805bbac2-57ea-4d0d-bc58-7d1cee52df88/Untitled.png)
+![image](https://user-images.githubusercontent.com/101108440/200314647-2f5e91b0-ecff-42eb-9a52-08286027be95.png)
 
 red는 div태그 - 칸 자체를 차지함
 
