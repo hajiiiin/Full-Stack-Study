@@ -87,4 +87,46 @@ export default App;
 
 💥빨간 부분 오류: JSX expressions must have one parent element.
 
-### 이벤트 기능
+### 이벤트 기능 : 다시
+
+`event` 
+
+- [event.target](http://event.target) : 이벤트가 발생한 태그를 가리킴
+    - ex) event.target.title.value; : 이벤트가 일어난 태그의 name이 title인 value를 가져옴
+- event.preventDefault() : 이벤트 막기
+    - 즉, 클릭할 때 이벤트를 지정해도 preventDefault면 클릭해도 반응 X
+
+### state
+
+`usestate()` 로 사용
+
+[0]은 입력 값, [1]은 바꿀 값
+
+ex)
+
+const [newValues, setValues] = usestate(초기값);
+
+➡️ setValues(newValues) : set과 new값이 같은지 비교 , 같으면 아무변화X 다르면 컴포넌트 실행
+
++ 컴포넌트 : 
+
+초기값자리에 
+
+1. primitive함수 : string, boolean, number, undefine
+2. Object : array, object
+    1. object일 때, newValues = {…value} 중괄호 안에 …하고 객체명해야 그 객체를 복사한 새로운 newValues가 생성됨
+        1. 이후 newValues (복사본)을 수정(.push()사용)하고 setValues(newValues) set에 new 넣어주기 
+    2. array일 때, {}말고 []대괄호 쓰기
+
+### crate
+
+- onClick={event⇒ //javascript 함수 (화살표 함수) [참고](https://www.notion.so/java-script-077f779093c949c1901e9e1e53444aa2)
+    - const newtopic(새로운 변수 선언) = {변수명 : 받아올 파라미터명}
+
+- <article>태그:
+- placeholder : 입력해야 하는 칸에 멘트를 디폴트로 지정할 수 있음 (html form태그 속성!)
+
+### Update
+
+- state를 사용하는 것이 핵심
+1. input으로 입력받기 , value에  …몰라
